@@ -1,0 +1,6 @@
+/vendor/
+/web/core/
+/web/sites/default/files/
+/web/sites/*/settings.php
+/web/sites/*/services.yml
+/web/info.php
