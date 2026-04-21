@@ -4,3 +4,5 @@
 /web/sites/*/settings.php
 /web/sites/*/services.yml
 /web/info.php
+/web/modules/contrib/
+/web/libraries/
