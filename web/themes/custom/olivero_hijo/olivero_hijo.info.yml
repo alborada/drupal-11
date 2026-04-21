@@ -1,0 +1,32 @@
+name: 'Olivero hijo'
+type: theme
+description: 'Tema hijo de Olivero'
+core_version_requirement: ^11
+base theme: olivero
+
+libraries:
+  - olivero_hijo/global-styling
+
+regions:
+  header: Header
+  primary_menu: Primary menu
+  secondary_menu: Secondary menu
+  hero: Hero (full width)
+  highlighted: Highlighted
+  breadcrumb: Breadcrumb
+  social: Social Bar
+  content_above: Content Above
+  content: Content
+  sidebar: Sidebar
+  content_below: Content Below
+  footer_top: Footer Top
+  footer_bottom: Footer Bottom
+
+libraries-override:
+  olivero/global-styling:
+    css:
+      base:
+        css/base/base.css: css/base/base.css
+      component:
+        css/components/text-content.css: css/components/text-content.css
+

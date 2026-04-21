@@ -1,0 +1,5 @@
+<?php
+
+function olivero_hijo_preprocess_page(&$variables) {
+  // personalizaciones globales
+}
