@@ -1,5 +1,9 @@
 <?php
 
-function olivero_hijo_preprocess_page(&$variables) {
-  // personalizaciones globales
+function olivero_hijo_preprocess_node(&$variables) {
+  $node = $variables['node'] ?? NULL;
+
+  if ($node && $node->id() == 2) {
+    $variables['#attached']['library'][] = 'olivero_hijo/swiper';
+  }
 }
