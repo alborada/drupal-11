@@ -49,6 +49,7 @@ web/sites/default/settings.php
 Ejemplo:
 
 $databases['default']['default'] = [
+
   'database' => 'nombre_db',
   'username' => 'usuario',
   'password' => 'password',
