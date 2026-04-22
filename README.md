@@ -51,9 +51,13 @@ Ejemplo:
 $databases['default']['default'] = [
 
   'database' => 'nombre_db',
+  
   'username' => 'usuario',
+  
   'password' => 'password',
+  
   'host' => 'localhost',
+  
   'driver' => 'pgsql',
 
 ];
