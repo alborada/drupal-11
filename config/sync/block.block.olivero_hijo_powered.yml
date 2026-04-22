@@ -1,0 +1,22 @@
+uuid: 90893caa-0f00-4184-a426-1b5710fc3c37
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - olivero_hijo
+_core:
+  default_config_hash: eYL19CLDyinGTWYQfBD1DswWzglEotE_kHnHx3AxTXM
+id: olivero_hijo_powered
+theme: olivero_hijo
+region: footer_bottom
+weight: 0
+provider: null
+plugin: system_powered_by_block
+settings:
+  id: system_powered_by_block
+  label: 'Powered by Drupal'
+  label_display: '0'
+  provider: system
+visibility: {  }

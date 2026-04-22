@@ -1,0 +1,23 @@
+uuid: 9083f5fc-9043-4aae-a7a1-8216063999af
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+id: contenido
+label: Contenido
+type: 'canonical_entities:node'
+pattern: '[node:title]'
+selection_criteria:
+  c6077639-80e4-4b3b-b4f9-3d0ec2aed313:
+    id: 'entity_bundle:node'
+    negate: false
+    uuid: c6077639-80e4-4b3b-b4f9-3d0ec2aed313
+    context_mapping:
+      node: node
+    bundles:
+      article: article
+      page: page
+selection_logic: and
+weight: -5
+relationships: {  }

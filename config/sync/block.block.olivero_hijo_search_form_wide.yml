@@ -1,0 +1,23 @@
+uuid: 15849c18-47af-4a5a-8b0e-20b457d04ff9
+langcode: en
+status: true
+dependencies:
+  module:
+    - search
+  theme:
+    - olivero_hijo
+_core:
+  default_config_hash: pbbed0hdqGDF-_QWVVTWRAwgDIotFuAvWH5mWUZu0fA
+id: olivero_hijo_search_form_wide
+theme: olivero_hijo
+region: secondary_menu
+weight: -5
+provider: null
+plugin: search_form_block
+settings:
+  id: search_form_block
+  label: 'Search form (wide)'
+  label_display: '0'
+  provider: search
+  page_id: null
+visibility: {  }

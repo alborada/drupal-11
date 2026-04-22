@@ -1,0 +1,22 @@
+uuid: 45deb3f1-e787-4154-846e-99ec94624da8
+langcode: en
+status: true
+dependencies:
+  theme:
+    - olivero_hijo
+_core:
+  default_config_hash: ydSxdq7R66I8UMC460rOzlfzvlUL4VRbdwc6z9DWaUI
+id: olivero_hijo_secondary_local_tasks
+theme: olivero_hijo
+region: highlighted
+weight: -2
+provider: null
+plugin: local_tasks_block
+settings:
+  id: local_tasks_block
+  label: 'Secondary tabs'
+  label_display: '0'
+  provider: core
+  primary: false
+  secondary: true
+visibility: {  }

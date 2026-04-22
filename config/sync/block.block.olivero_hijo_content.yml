@@ -1,0 +1,22 @@
+uuid: 670a69e7-f97b-46ce-b09e-bf179bb6076e
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - olivero_hijo
+_core:
+  default_config_hash: erQSEZF2XUjNmgTl0uNRBzmg18ZGXwUcw2FhApoeuHk
+id: olivero_hijo_content
+theme: olivero_hijo
+region: content
+weight: 0
+provider: null
+plugin: system_main_block
+settings:
+  id: system_main_block
+  label: 'Main page content'
+  label_display: '0'
+  provider: system
+visibility: {  }
