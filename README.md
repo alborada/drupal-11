@@ -55,6 +55,7 @@ $databases['default']['default'] = [
   'password' => 'password',
   'host' => 'localhost',
   'driver' => 'pgsql',
+
 ];
 
 4. Instalar Drupal
